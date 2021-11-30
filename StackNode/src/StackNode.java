@@ -14,6 +14,20 @@ public class StackNode<E> {
 
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public E pop(){
         if(next.isEmpty){
             System.out.println("Stack is Empty");
