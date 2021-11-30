@@ -13,7 +13,9 @@ public class StackNode<E> {
         this.element = element;
 
     }
-
+    public boolean isEmpty(){
+        return element == null;
+    }
 
 
 }
