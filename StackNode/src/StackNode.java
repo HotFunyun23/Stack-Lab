@@ -1,7 +1,8 @@
-/*
-Big header(Let's Gooooo)
-
- */
+/**
+ Stack Node
+ Author: Conor
+ Date: 11/30/2021
+ **/
 public class StackNode<E> {
 
 
