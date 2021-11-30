@@ -16,16 +16,7 @@ public class StackNode<E> {
     public boolean isEmpty(){
         return element == null;
     }
-
-
-
-
-
-
-
-
-
-
+    
     public E pop(){
         if(next.isEmpty){
             System.out.println("Stack is Empty");
