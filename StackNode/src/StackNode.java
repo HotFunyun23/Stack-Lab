@@ -41,5 +41,9 @@ public class StackNode<E> {
         return top;
     }
 
+    public int size(){
+        return this.isEmpty() ? 0 : 1 + this.next.size(); //recursion?? lets see if it works
+    }
+
 
 }
